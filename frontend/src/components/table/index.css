@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.table-header {
+    @apply bg-blue-200;
+}
+
+.table-header th {
+    @apply p-2;
+}
+
+.table-body tr {
+    @apply border-b-1 border-blue-200 h-10;
+}
+
+.table-body tr td {
+    @apply px-10 text-center;
+}

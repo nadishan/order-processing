@@ -1,0 +1,24 @@
+{
+  "name": "order-processing-backend",
+  "version": "1.0.0",
+  "description": "Order processing backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Ngit config --global user.name Nadishan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

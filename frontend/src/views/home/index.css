@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.home-container {
+    @apply flex justify-center;
+}
+
+.table-container {
+    @apply w-full;
+}
+
+.product-add-button {
+    @apply flex flex-row justify-end m-4;
+}
+
+.form-container {
+    @apply border-2 border-blue-200 rounded-lg p-4 m-4 w-50 h-50 bg-blue-500;
+}
+
+.table-container {
+    @apply p-10;
+}
+
+.data-form {
+    @apply p-10 w-200 self-center;
+}
+
+.form-buttons-container {
+    @apply flex flex-row justify-end;
+}
+
+.form-button {
+    @apply mt-4 w-full text-center m-2;
+}
+
+.grid-container {
+    @apply flex flex-col w-full;
+}
